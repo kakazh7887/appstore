@@ -19,7 +19,7 @@ jobs:
           ls -la ~/.private_keys/
       - name: Download IPA From URL
         run: |
-          curl -L -o myapp.ipa http://xz.jiahexiaoman.cn/2034_564/v123_302820345640signed.ipa
+          curl -L -o myapp.ipa http://xz.jiahexiaoman.cn/__UNI__DA3BB15_1211110423.ipa
           ls -la myapp.ipa
       - name: Upload to App Store
         run: |
